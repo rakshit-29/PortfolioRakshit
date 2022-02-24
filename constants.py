@@ -27,4 +27,12 @@ HTML_BANNER = """
                         </div>
                         """
 
-
+html_ender= """
+            <div style="background-color:#E6FEFF;height: auto;width: auto; margin: auto; 
+                        border-radius:auto">
+                        <h1 style="color:#002376;position:relative; font-family: Helvetica ;text-align:center;">Thank you for viewing my profile.</h1>
+                        <h2 style="color:#002376;position:relative;text-align:center;font-family: Helvetica ;">If you wish to connect, please send me and email and I would be glad to respond it back positively!✌🏻
+                        </h2>
+                        </div>
+                    
+            """

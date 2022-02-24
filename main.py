@@ -93,6 +93,8 @@ def main():
 
         st.image(ibm_image, caption='IBM Data Science Professional Certificate, more to come...⌛')
 
+        stc.html(ct.html_ender)
+
 
 if __name__ == '__main__':
     main()
