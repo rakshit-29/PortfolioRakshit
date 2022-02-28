@@ -80,10 +80,10 @@ def main():
         fig = go.Figure(data=[go.Table(
             header=dict(values=list(ct.info['edu'].columns),
                         fill_color='Thistle',
-                        align='left', height=65, font_size=20),
+                        align='left', height=65, font_size=20, font_color="black"),
             cells=dict(values=ct.info['edu'].transpose().values.tolist(),
                        fill_color='LavenderBlush',
-                       align='left', height=40, font_size=15))])
+                       align='left', height=40, font_size=15, font_color="black"))])
 
         fig.update_layout(width=750, height=400)
         st.plotly_chart(fig)
