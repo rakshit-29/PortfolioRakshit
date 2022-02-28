@@ -26,7 +26,7 @@ def main():
     if choice == "Home":
         stc.html(ct.HTML_BANNER)
 
-        image = Image.open('C:Users/Rakshit/Desktop/WhatsApp Image 2021-08-02 at 6.30.42 AM.jpeg')
+        image = Image.open('image_profile.jpeg')
 
         st.image(image)
 
@@ -45,7 +45,7 @@ def main():
         st.subheader("GitHub")
         stc.html(ct.embed_component['github'], height=400)
 
-        with open("C:Users/Rakshit/Downloads/Saxena_Rakshit_resume.pdf", "rb") as pdf_file:
+        with open("Saxena_Rakshit_resume.pdf", "rb") as pdf_file:
             PDFbyte = pdf_file.read()
 
         st.subheader("Resume")
@@ -89,7 +89,7 @@ def main():
         st.plotly_chart(fig)
 
         st.subheader('Certifications 🏅')
-        ibm_image = Image.open('C:Users/Rakshit/Downloads/ibm_ds_certificateJpeg.jpg')
+        ibm_image = Image.open('ibm_ds_certificateJpeg.jpg')
 
         st.image(ibm_image, caption='IBM Data Science Professional Certificate, more to come...⌛')
 
